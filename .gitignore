@@ -1,0 +1,4 @@
+node_modules/*
+spec/.DS_Store
+.DS_Store
+coverage/*
