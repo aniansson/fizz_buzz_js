@@ -12,7 +12,7 @@ module.exports = function(config) {
       'assets/js/**/*.js',
       'spec/**/*_spec.js', {
         pattern: 'spec/fixtures/**/*.html',
-        included: false,
+        included: true,
         served: true
       }
     ],
