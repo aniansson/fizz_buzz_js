@@ -1,7 +1,8 @@
 
 var onReadyEvents = function(){
-  $('#click_me').click(function() {
-    var text = $('#text').val();
-    $('#display_message').html(text);
+  $('#check_number').click(function() {
+    var number = $('#insert_number').val();
+    var text = fizzBuzzChallenge(number);
+    $('#display_outcome').html(text);
   });
 }
