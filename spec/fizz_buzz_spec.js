@@ -13,6 +13,6 @@ describe('FizzBuzzChallenge', function() {
   });
 
   it ("should return 'fizz buzz' if number = 15", function() {
-    expect(fizzBuzzChallenge(15)).toEqual('fizz buzz');
+    expect(fizzBuzzChallenge(30)).toEqual('fizz buzz');
   });
 });
