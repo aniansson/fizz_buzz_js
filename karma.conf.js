@@ -3,7 +3,7 @@
 
 module.exports = function(config) {
   config.set({
-    basePath: '',
+    basePath: '/',
     frameworks: ['jasmine-jquery', 'jasmine'],
     // list of files / patterns to load in the browser
     files: [
@@ -12,7 +12,7 @@ module.exports = function(config) {
       'assets/js/**/*.js',
       'spec/**/*_spec.js', {
         pattern: 'spec/fixtures/**/*.html',
-        included: true,
+        included: false,
         served: true
       }
     ],
