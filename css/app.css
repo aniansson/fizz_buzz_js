@@ -1,0 +1,37 @@
+h3 {
+  margin-bottom: 50px;
+  margin-top: 25px;
+  font-family: 'Ravi Prakash', cursive;
+  font-size: 100px;
+  text-align: center;
+
+}
+
+p {
+  margin-bottom: 10px;
+  font-family: 'Sumana', serif;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.button {
+  margin-bottom: 100px;
+  color: black;
+  background-color: #ff6600;
+}
+
+.insertation {
+  text-align: center;
+  font-family: 'Sumana', serif;
+  font-size: 13px;
+}
+
+.outcome {
+  font-size: 75px;
+  color: grey;
+  font-family: 'Bungee', cursive;
+}
+
+body {
+  background-color: #ff8c1a;
+}

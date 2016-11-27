@@ -6,18 +6,22 @@
     <script src="assets/js/jquery-2.1.1.min.js"></script>
     <script src="assets/js/fizzBuzz.js"></script>
     <script src="assets/js/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/foundation.css">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Ravi+Prakash|Sumana" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
     </head>
   <body>
-
     <form>
       <header>
         <h3>Play Fizz Buzz</h3>
       </header>
-      <input type="text" id="insert_number" placeholder="Number">
-      <input type="button" id="check_number" value="Calculate">
+      <p>pick a number</p>
+        <center><input class="insertation" type="text" style="width: 100px" id="insert_number" placeholder="Number"> </center>
+        <center><input class="button" type="button" id="check_number" value="Check"> </center>
     </form>
     <div>
-      <span id="display_outcome"></span>
+      <center><span class="outcome" id="display_outcome"></span></center>
     </div>
     <script type="text/javascript">
         $(document).ready(onReadyEvents);
